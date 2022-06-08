@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Numbers_1 = require("./Numbers");
+const StringsSort_1 = require("./StringsSort");
+const LinkedList_1 = require("./LinkedList");
+const num = new Numbers_1.NumberSort([1, 2, 3, 4, 23, 12, 543, 21, 0, -2]);
+num.sort();
+console.log(num, '1');
+const str = new StringsSort_1.StringSort('azSQZsdqwdojicxnicbuyqs');
+str.sort();
+console.log(str);
+const linkedList = new LinkedList_1.LinkedList();
+linkedList.add(122);
+linkedList.add(2);
+linkedList.add(31);
+linkedList.sort();
+console.log(linkedList);
